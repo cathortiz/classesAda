@@ -1,0 +1,66 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin:50px;
+}
+
+h1 {
+	margin:0 auto;
+	text-align: center;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+strong {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul, li {
+	color:#5B0359;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	padding-bottom: 15px;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	background-color: #F0EFD1;
+	text-align:center;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ em, i, ins{
+	font-family: 'Source Sans Pro', sans-serif;
+ }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #F044E3;
+    padding:5px 0px;
+}
+
+
