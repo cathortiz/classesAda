@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form>
+			<div>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" required> 
+			</div>
+			<!-- el for y el id tienen que ser iguales -->
+
+			<div>
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido" id="apellido" required>
+			</div>
+
+			<div>
+				<label for="mail">Email</label>
+				<input type="email" name="mail" id="mail" placeholder="ejemplo@ejemplo">
+			</div>
+
+			<div>
+				<label for="fecha">Fecha de nacimiento</label>
+				<input type="date" name="fecha" id="fecha" required>
+			</div>
+
+
+			<div>
+				<label for="algoconrange">Algo con range</label>
+				<input type="range" name="algoconrange" id="algoconrange">
+			</div>
+
+			<div>
+				<label for="edad">Edad</label>
+				<input type="number" min="18" max="80" name="edad" id="edad" value="18">
+			</div>
+
+			<div>
+				<label for="msj">Mensaje</label>
+				<textarea id="msj" placeholder="Dejanos tu msj..."></textarea>
+			</div>
+
+			<div>
+				<label for="terminos">Acepto términos y condiciones</label>
+				<input type="checkbox" name="terminos">
+				<!-- si uso el atributo checked="true" me aparece checkeado -->
+			</div>
+
+			<div>
+				<label for="check-h">Hombre</label>
+				<input type="radio" name="genero">
+
+				<label for="check-m">Mujer</label>
+				<input type="radio" name="genero">
+
+				<!-- usando el mismo nombre hace que no se puedan tildar nunca-->
+			</div>
+
+			<div>
+				<input type="file" name="fotos">
+			</div>
+
+			<div>
+				<label for="seleccionar">Elige tu país</label>
+				<select name="seleccionar">
+					<option disabled="true" selected="true">País</option>
+					<option>Argentina</option>
+					<option>Brasil</option>
+					<option>Chile</option>
+					<option>Ecuador</option>
+					<option>Colombia</option>
+				</select>
+			</div>
+
+			<div>
+				<button type="submit">Enviar</button>
+				<button type="reset">Limpiar</button>
+				<button type="button">No hace nada</button>
+				<!-- este tipo de boton es util para usar con js-->
+			</div>
+
+			
+		</form>
+	</body>
+</html>
