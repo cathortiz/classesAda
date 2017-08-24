@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width: 80%;
+	height: 750px;
+	margin:0 auto;
+}
+
+#color1{
+	width: 20%;
+	height: 750px;
+	float: left;
+	background-image: url('img/selva.jpg');
+}
+
+.form{
+	width: 20%;
+	height: 750px;
+	float: left;
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 600px;
+}
+
+#color2{
+	background-image: url('img/pradera.jpg');
+}
+
+#color3{
+	background-image: url('img/mount.jpg');
+}
+
+#color4{
+	background-image: url('img/desierto.jpg');
+}
+
+#color5{
+	background-image: url('img/playa.jpg');
+}
+
+.op{
+	color:transparent;
+}
+
+.op:hover{
+	opacity: 0.7;
+	color: white;
+	text-transform: uppercase;
+}
