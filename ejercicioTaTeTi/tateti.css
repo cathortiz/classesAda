@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#cont {
+	width: 80%;
+	margin:0 auto;
+	overflow: auto;
+}
+
+.column {
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.bkimg {
+	width: 32%;
+	height: 300px;
+	float: left;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+.imagen{
+	padding:30px 0px 0px 10px;
+}
+
+#mercurio{
+	background-image: url("img/mercurio1.jpg");
+}
+
+#venus{
+	background-image: url("img/venus1.jpg");
+}
+
+#marte{
+	background-image: url("img/marte1.jpg");
+}
+
+#jupiter{
+	background-image: url("img/jupiter1.jpg");
+}
+
+#tierra{
+	background-image: url("img/tierra1.jpg");
+}
+
+#saturno{
+	background-image: url("img/saturno1.jpg");
+}
+
+#urano{
+	background-image: url("img/urano1.jpg");
+}
+
+#neptuno{
+	background-image: url("img/neptuno1.jpg");
+}
+
+#pluton{
+	background-image: url("img/pluton1.jpg");
+/*
+
+
+
+*/
+
+
