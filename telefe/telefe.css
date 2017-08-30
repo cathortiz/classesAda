@@ -1,0 +1,37 @@
+#container {
+	width: 50%;
+	margin:0 auto;
+}
+
+.ball{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	float: left;
+	box-shadow: 1px 1px 10px black;
+	margin-right: 5px;
+	text-align: center;
+}
+
+p {
+	font-family: sans-serif;
+	color:white;
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+#azul{
+	background-color: blue;
+}
+
+
+#verde{
+	background-color: green;
+
+}
+
+#rojo{
+
+	background-color: red;
+}
+
