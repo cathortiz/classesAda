@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+
+
+header {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	/*background-color: rgba(255, 192, 203, 0.5);*/
+	background-image: url("Imgs/hd.svg");
+	color: black;
+	margin-bottom: 20px;
+
+}
+
+header h1 {
+	padding: 25px 0px;
+	font-family: "Lobster-regular";
+	font-size: 50px;
+}
+
+section {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: black;
+	overflow: auto;
+	padding-bottom: 20px;
+}
+
+div {
+	width: 100%;
+	padding: 20px;
+	margin:0 auto;
+
+}
+
+article {
+	width: 32%;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	background-color: rgba(0, 128, 255, 0.1);
+	padding:20px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+figcaption {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+	/*text-align: right;*/
+}
+
+input {
+	width: 50px;
+	padding: 5px;
+	border: 0px;
+	border-radius: 2px;
+	float: left;
+}
+
+button {
+	padding: 5px;
+	border: 0px;
+	border-radius: 2px;
+	background-color: pink;
+	float: right;
+}
+
+footer{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	background-color:rgba(0, 128, 255, 0.2); 
+	color: black;
+	margin-top: 20px;
+	padding: 30px 0px;
+	font-size: 14px;
+	}
