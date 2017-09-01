@@ -6,7 +6,6 @@ Although, I should tell you first that ADA is a front-end bootcamp so don't expe
 Let's save that magic for the future. 
 
 ## howToMakeBorders 
-----
 
 Different types of borders in css and their charactersitics: 
 * style
@@ -28,6 +27,42 @@ Default borders have:
 * width: 1px;
 * style: solid;
 * color: black;
+
+
+## usesOf<a>element
+
+< This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
+
+< It's really useful to use this <a> within menues or images. Also we can put them inside our text to generate hyperlinks. 
+
+< We love you <a> 
+
+
+Uses: 
+* Images 
+	<a href="#"><img src="example.jpg" alt="example"></a>
+* Menues (lists)
+	<ul>
+	<li><a href="#">Hello</a></li>
+	<li><a href="#">Goodbye</a></li>
+* Hyperlinks 
+	<p>Let's go to <a href="google.com">Google</a></p>
+* Our own page 
+	<a href="#hello">Hello</a>
+	<a href="#goodbye">Goodbye</a>
+	<div>
+	<a name="hello"></a>
+	<h2>Hello</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corrupti, et sequi ad minima esse earum ipsum impedit temporibus dolorum recusandae nulla. Vitae, fugiat, quibusdam? Illo quae sequi mollitia quibusdam.</p>
+	</div>
+	<div>
+	<a name="goodbye"></a>
+	<h2>Goodbye</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corrupti, et sequi ad minima esse earum ipsum impedit temporibus dolorum recusandae nulla. Vitae, fugiat, quibusdam? Illo quae sequi mollitia quibusdam.</p>
+	</div>
+
+## divsAreSuperFunToPlayWith
+
 
 
 
