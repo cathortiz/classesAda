@@ -5,6 +5,33 @@ I'll be adding in this README what I've been doing in each folder inside this re
 Although, I should tell you first that ADA is a front-end bootcamp so don't expect weird and cool back-end stuff.
 Let's save that magic for the future. 
 
+## howToMakeBorders 
+----
+
+Different types of borders in css and their charactersitics: 
+* style
+* width
+* color
+* radius
+
+Give each of this characteristics to the different borders separately:
+
+    
+    div {
+    	border-top: 1px solid green;
+    	border-right: 2px dashed red;
+    	border-bottom: 1px dotted pink;
+    	border-left: 2px groove blue;
+    }
+
+Default borders have:
+* width: 1px;
+* style: solid;
+* color: black;
+
+
+
+
 
 
 
