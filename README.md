@@ -32,10 +32,10 @@ Default borders have:
 ## usesOf<a>element
 
 > This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
-
-> It's really useful to use this <a> within menues or images. Also we can put them inside our text to generate hyperlinks. 
-
-> We love you <a> 
+>
+> It's really useful to use this **a** element within menues or images. Also we can put them inside our text to generate hyperlinks. 
+>
+> We love you **a** 
 
 
 Uses: 
