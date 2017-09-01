@@ -31,23 +31,31 @@ Default borders have:
 
 ## usesOf<a>element
 
-< This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
+> This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
 
-< It's really useful to use this <a> within menues or images. Also we can put them inside our text to generate hyperlinks. 
+> It's really useful to use this <a> within menues or images. Also we can put them inside our text to generate hyperlinks. 
 
-< We love you <a> 
+> We love you <a> 
 
 
 Uses: 
-* Images 
-	<a href="#"><img src="example.jpg" alt="example"></a>
-* Menues (lists)
-	<ul>
+
+Images 
+    
+    <a href="#"><img src="example.jpg" alt="example"></a>
+
+Menues (lists)
+
+    <ul>
 	<li><a href="#">Hello</a></li>
 	<li><a href="#">Goodbye</a></li>
-* Hyperlinks 
+
+Hyperlinks 
+
 	<p>Let's go to <a href="google.com">Google</a></p>
-* Our own page 
+
+Our own page 
+
 	<a href="#hello">Hello</a>
 	<a href="#goodbye">Goodbye</a>
 	<div>
