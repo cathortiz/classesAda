@@ -23,9 +23,27 @@
 	text-align: center;
 }
 
+#dalek {
+	position: absolute;
+	z-index: 101;
+	top:0;
+	left:0;
+}
+
+#cyber {
+	position: absolute;
+	z-index: 100;
+	top:25;
+	left:0;
+}
+
+/*
+
 .imagen{
 	padding:30px 0px 0px 10px;
 }
+
+*/
 
 #mercurio{
 	background-image: url("img/mercurio1.jpg");
@@ -33,6 +51,7 @@
 
 #venus{
 	background-image: url("img/venus1.jpg");
+	position: relative;
 }
 
 #marte{
@@ -53,6 +72,7 @@
 
 #urano{
 	background-image: url("img/urano1.jpg");
+	position: relative;
 }
 
 #neptuno{
