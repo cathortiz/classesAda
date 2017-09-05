@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+nav {
+	background-color: cyan;
+	position: relative;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li ul li{
+	display: block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white;
+	margin: 0px 20px;
+}
+
+nav ul li a:hover {
+	color:navy;
+}
+
+nav .submenu {
+	position: absolute;
+	display:none;
+	background-color: cyan;
+	text-align: left;
+}
+
+nav .ancla:hover .submenu {
+	display: block;
+}
+
+.submenu ul {
+	display: inline-block;
+}
+
+

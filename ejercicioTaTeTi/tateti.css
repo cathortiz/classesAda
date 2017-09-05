@@ -7,6 +7,7 @@
 	width: 80%;
 	margin:0 auto;
 	overflow: auto;
+	position: relative;
 }
 
 .column {
@@ -26,16 +27,17 @@
 #dalek {
 	position: absolute;
 	z-index: 101;
-	top:0;
-	left:0;
+	top: 25px;
+	left: 450px;
+
 }
 
 #cyber {
 	position: absolute;
-	z-index: 100;
-	top:25;
-	left:0;
-}
+	z-index: 102;
+	top: 630px;
+	left:130px;
+} 
 
 /*
 
@@ -51,7 +53,7 @@
 
 #venus{
 	background-image: url("img/venus1.jpg");
-	position: relative;
+	
 }
 
 #marte{
@@ -72,7 +74,7 @@
 
 #urano{
 	background-image: url("img/urano1.jpg");
-	position: relative;
+	
 }
 
 #neptuno{
