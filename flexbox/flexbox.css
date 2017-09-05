@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.contenedor {
+	display: flex; /* comportamiento similar al de float  */
+	flex-direction: row; /* establece la disposicion de los elementos y su sentido */
+	/* row (default) o column o row-reverse o column-reverse */
+	flex-wrap: wrap; /* hace que las cajas se obliguen a entrar en el espacio predeterminado */
+	/* el wrap no modifica el ancho de los hijos */
+	/* wrap-reverse comienza la linea del otro lado */ 
+	flex-flow: row wrap; /* propiedad atajo de las dos anteriores */
+	justify-content: center; /* establece la alineacion en el eje X usando center y manejo del espacio */
+	/* space between, flex-end, space-arround, space-bewteen, flex-begin */
+	align-items: center; /* establece la alineacion en el eje Y usando center y manejo del espacio */
+	/* 
+	align-items: baseline;
+	align-items: stretch; hay que sacar el hight de los hijos para que funcione	
+	 */
+	
+	align-content: center; /* para alinear mas de una fila, se usan las mismas caracteristicas de align items*/
+	
+	width: 700px;
+	height: 500px;
+	background: #212d40;
+}
+
+.caja {
+	width: 100px;
+	height: 100px;
+	background:#f79256;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+
