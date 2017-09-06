@@ -20,7 +20,7 @@ body {
 	/* wrap-reverse comienza la linea del otro lado */ 
 	flex-flow: row wrap; /* propiedad atajo de las dos anteriores */
 	justify-content: center; /* establece la alineacion en el eje X usando center y manejo del espacio */
-	/* space between, flex-end, space-arround, space-bewteen, flex-begin */
+	/* flex-end, space-arround, space-bewteen, flex-begin */
 	align-items: center; /* establece la alineacion en el eje Y usando center y manejo del espacio */
 	/* 
 	align-items: baseline;
@@ -43,5 +43,8 @@ body {
 	padding: 20px;
 	font-size: 40px;
 	color: #fff;
+	
+	order: 1; /* por default esta en uno*/
+	align-self: flex-start; /* tambien puede usarse flex-end, center y stretch */
 }
 
