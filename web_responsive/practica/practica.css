@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	width: 100%;
+	margin:0 auto;
+	background-color: yellow;
+}
+
+nav {
+	width: 70%;
+	margin:0 auto;
+	background-color: pink;
+	text-align: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	background-color: grey;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	width: 100%;
+}
+
+nav ul li a:hover {
+	background-color: rgba(255,255,255,0.5);
+}
+
+
+.submenu {
+	background-color: white;
+	padding: 25px 100px;
+	width: 100%;
+	display: none;
+}
+
+.drop:hover .submenu {
+	display: block;
+}
+
