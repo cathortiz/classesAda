@@ -1,0 +1,48 @@
+
+
+.celeste {
+	background-color: #66CCFF;
+}
+
+.rosa {
+	background-color: #FF6FCF;
+}
+
+.rojo {
+	background-color: red;
+}
+
+.amarillo {
+	background-color: yellow;
+}
+
+.verde {
+	background-color: lime;
+}
+
+.blanco {
+	background-color: white;
+}
+
+.negro {
+	background-color: black;
+}
+.azul {
+	background-color: blue;
+}
+
+.gradiente {
+	background: linear-gradient(to right, white, black);
+}
+
+.alto {
+	height: 450px;
+}
+
+.medio {
+	height: 200px;
+}
+
+.bajo {
+	height: 125px;
+}
