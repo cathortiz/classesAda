@@ -29,7 +29,7 @@ Default borders have:
 * color: black;
 
 
-## usesOf a element
+## uses Of an element
 
 > This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
 >
@@ -70,6 +70,40 @@ Our own page
 	</div>
 
 ## divsAreSuperFunToPlayWith
+
+We have learned about divs and at first we used them for everything. Then html5 guide us along the way. 
+
+Divs are:
+* block structures 
+* they come to life without paddings, margins and borders. 
+* their default background-color is transparent and their default color is black
+* all html5 elements are like divs but with different names (header, main, footer, aside, article, section, etc.)
+
+### inCaseYouWereWondering 
+
+* As we said before, divs are block structures, they function as boxes and all block elements are possitioned one bellow the other by default. 
+* If you want to center a div you should use the CSS to give the div a specific width and then a margin auto. This will make the div to center inside its father (!important --> the father needs a width too so pay attention to details)
+
+Here is a brief example:
+
+	<style>
+	 .father {
+	 	width:100%;
+	 }
+	 .son {
+	 	width:100%;
+	 	margin:0 auto;
+	 }
+	</style>
+	
+	<body>
+	<div class="father">
+	</div>
+	<div class="son">
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+	</div>
+	</body>
+	
 
 
 
