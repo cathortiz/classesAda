@@ -1,0 +1,109 @@
+
+/******* HEADER ********/
+
+.head {
+	width: 100%;
+	margin:0 auto;
+	background-color: black;
+	color:white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.head img {
+	width: 150px;
+	margin: 20px;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 25px;
+	margin-top: 15px;
+	background-color: orange;
+	color: white;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	background-color: yellow;
+	color:brown;
+}
+
+
+/******** MAIN *******/
+
+.spbe{
+	display: flex;
+	justify-content: space-between;
+}
+.pink{
+	background-color: lightpink;
+	height: 450px;
+	width: 575px;
+}
+.blue{
+	background-color: blue;
+	height: 150px;
+	margin: 25px 5px;
+}
+.flor{
+	width: 100px;
+}
+.right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.green{
+	background-color: green;
+	height: 400px;
+	width: 375px;
+}
+.florbk{
+	background-image: url("footer.jpg");
+	height: 200px;
+}
+
+
+/******************medias****/
+
+@media screen and (max-width: 700px) and 
+(min-width: 350px){
+	.flord {
+		display:none;	
+	}
+	.pink {
+		margin-top: 25px;
+	}
+	h1{ 
+		font-size: 30px;
+	}
+	nav{ 
+		width: 35%;
+		position: fixed;
+		z-index:10;
+		top:25%;
+		right: 0%;
+	 }
+	nav ul li {
+		display: block;
+	}
+	nav ul li a{
+		padding: 0px;
+		margin:0px;
+	}
+}

@@ -29,7 +29,7 @@ Default borders have:
 * color: black;
 
 
-## uses Of an element
+## uses Of **A** element
 
 > This element is pretty importan when used inside an .html document. We can either use it to navigate our own page as well as for linking our page to other pages or other htmls.
 >
