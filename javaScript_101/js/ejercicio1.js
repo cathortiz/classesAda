@@ -10,12 +10,12 @@ if (modo=="efectivo"){
 	total=(monto-desc);
 	alert("Su monto a pagar es $"+total+".-");
 	} 
-	else if (monto>=1000 && monto<2000) {
+ else if (monto>=1000 && monto<2000) {
 	desc=(monto*10)/100;
 	total=(monto-desc);
 	alert("Su monto a pagar es $"+total+".-");
 	} 
-	else if (monto>2000){
+ else if (monto>2000){
 	desc=(monto*20)/100;
 	total=(monto-desc);
 	alert("Su monto a pagar es $"+total+".-");
@@ -28,13 +28,13 @@ else if (modo=="tarjeta") {
 	total=(monto+recargo);
 	alert("Su monto a pagar es $"+total+".-");
 	} 
-	else if (monto>=1000 && monto<2000) {
+ else if (monto>=1000 && monto<2000) {
 	desc=(monto*10)/100;
 	recargo=(monto*2.5)/100;
 	total=(monto+recargo)+(monto-desc);
 	alert("Su monto a pagar es $"+total+".-");
 	} 
-	else if (monto>=2000){
+ else if (monto>=2000){
 	desc=(monto*10)/100;
 	total=(monto-desc);
 	alert("Su monto a pagar es $"+total+".-");
