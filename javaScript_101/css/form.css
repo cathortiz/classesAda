@@ -45,7 +45,7 @@ form {
 	color: rgb(0,21,103);
 }
 
-input[type=submit] {
+button {
 	background-color: #0080FF;
     border: none;
     color: white;
