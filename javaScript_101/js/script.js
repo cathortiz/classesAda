@@ -3,6 +3,7 @@ var nombre, pass;
 
 
 function contador(form) {
+
 	if (form.name.value=="doctor" && form.pass.value=="1234" && cont<3){
 		alert("Bienvenido!");
 	} else if (form.name.value!="doctor" || form.pass.value!="1234" && cont<3){
@@ -12,3 +13,10 @@ function contador(form) {
 		alert("You shall not pass!");
 	}
 }
+
+
+/* function newDoc() {
+    window.location.assign("https://www.w3schools.com")
+	}	
+
+*/
