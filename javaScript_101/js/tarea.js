@@ -14,6 +14,9 @@ else {
 }
 
 
+///////////////////////////////////////////
+
+
 // EJERCICIO NUMERO 2
 
 let dias = prompt("Ingrese un numero del 1 al 7:");
@@ -45,4 +48,86 @@ switch(dias){
 	break;
 }
 
+
+///////////////////////////////////////////
+
+
+
+// EJERCICIO NUMERO 3
+
+var mes= prompt("Ingrese un mes:");
+
+if (mes=="Febrero"){
+	alert("Este mes tiene 28 días");
+}
+
+else if (mes == "Abril" || mes=="Junio" || mes=="Septiembre" ||mes =="Noviembre"){
+	alert("Este mes posee 30 días");
+}
+else{
+	alert("Este mes tiene 31 días");
+}
+
+
+///////////////////////////////////////////
+
+
+// EJERCICIO NUMERO 4
+
+var numero;
+
+if (numero<0){
+	alert("Cuanta negatividad!");
+}
+else {
+	alert("Cuanta positividad!");
+}
+
+
+
+
+///////////////////////////////////////////
+
+
+// EJERCICIO NUMERO 5
+
+var letra = prompt("Ingrese una letra del abcedario:");
+
+if (letra=="a" || letra=="i" || letra=="o" || letra=="u" || letra=="e"){
+	alert("Es un vocal!");
+}
+else {
+	alert("No es vocal");
+}
+
 */
+
+
+///////////////////////////////////////////
+
+
+// EJERCICIO NUMERO 6
+
+var x, y, z;
+
+if (x>y){
+	var total=x-z;
+	console.log(total);
+	if (total>y){
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,43 +1,37 @@
-if (confirm("Estas dispuesto a caminar unas cuadras?") == true) {
-    alert("Poder ir en subte y llegar en 40 min si caminas 10 cuadras.");
-}
 
-else {
+//Ejercicio en clase
 
-        if (confirm("Que te priorizas? Tiempo = OK, Dinero = Cancelar")== true) {
-            alert("Podes ir en colectivo. (Ahorras tiempo)");
+/* Consigna: 
+
+Si viajo en subte = $$ - caminar - 40 min
+Si viajo en bondi = $ - no caminar - 1 h
+Si viajo en bici = gratis - no caminar - 1.30 hs
+
+*/
+
+var caminar = true;
+var tiempo = true;
+var dinero = 9;
+var bondi =6.5;
+var subte = 8;
+
+if (dinero>=subte) {
+    console.log("Voy en subte");
+    if (tiempo==true) {
+        console.log("Voy en bondi");
+    } 
+    else{
+        if (caminar==true) {
+            console.log("Voy en subte");
         }
         else {
-            alert("Podes ir caminando. (Ahorras dinero)");
+            console.log("Voy en bondi");
         }
+    }
 }
-
-/*
-if (confirm("Tenes dinero?") == true) {
-    alert("Te vas en subte");
+else if (dinero>=bondi){
+    console.log("Voy en bondi");
 }
-
-else {
-
-        if (confirm("Que te importa mas? Tiempo = OK, Hacer deporte = Cancelar")== true) {
-            alert("Te vas en Colectivo");
-        }
-        else {
-            alert("Te vas en bici");
-        }
+else{
+    console.log("Voy en bici");
 }
-
-
-if (confirm("Tenes tiempo?") == false) {
-    alert("Te vas en subte");
-}
-
-else {
-
-        if (confirm("Que te importa mas? Dinero = OK, Hacer deporte = Cancelar")== true) {
-            alert("Te vas en bici");
-        }
-        else {
-            alert("Te vas en Colectivo");
-        }
-}*/
