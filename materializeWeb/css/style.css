@@ -1,0 +1,59 @@
+.fix {
+	position: fixed;
+	z-index: 10;
+}
+
+.mleft {
+	margin-left: 5px;
+}
+
+.img {
+	width: 100%;
+	margin: 0px;
+	top:0px;
+}
+
+.minmar {
+	margin-top: -6px ;
+}
+
+.mtop {
+	margin-top: 50px;
+}
+
+.mbot {
+	margin-bottom: 50px;
+}
+
+.color1 {
+	background-color: #3F51B5;
+}
+
+.color2{
+	color: #8BC34A;
+}
+
+.pad {
+	padding:0px 20px;
+}
+
+.padcont {
+	padding: 20px 0px;
+}
+.cirimg {
+	width: 200px;
+}
+
+.colorr{
+	color: red;
+}
+
+@media (max-width:978px) {
+	.resptxt {
+		font-size: 40px;
+	}
+	.img {
+		margin-top: 50px;
+	}
+
+}
