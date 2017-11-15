@@ -229,17 +229,60 @@ Ejercicio 8
 Se escriben el promedio y el nombre de 10 alumnos, al finalizar muestre el nombre 
 y promedio del mejor.
 
-*/
+
 var nombres = ["Laura","Priscila","Luciana","Gia","Paola","Agustina","Belen","Camila"];
 var promedio = [7.5,6.5,8,8.5,9,8,9.5,6];
 var max =0;
+var alumno;
+
+console.log(`Este es el array de promedios: ${promedio}`);
 
 for(var i=0; i<promedio.length; i++){
-	
+	if (promedio[i]>promedio[i+1]){
+		max = promedio[i];
+		alumno = nombres[i];
+	}
+}
+
+console.log(`El promedio máximo es ${max}/10 y es de ${alumno}`);
+
+
+
+// --------------------------------------------------- 
+
+Ejercicio 10. 
+calcular la suma total del precio de 10 articulos
+
+
+var articulos = [20,25,40,30,100,102,40,55,15,44,30];
+var suma = 0;
+
+for ( var i = 0; i<articulos.length;i++){
+	suma = suma + articulos[i];
+	console.log(suma);
 }
 
 
 
+// --------------------------------------------------- 
+
+Ejercicio 11 
+mostrar por pantalla todos los numeros pares entre 2 y 50
+
+
+for(var i = 3; i<=49; i++){
+	console.log(i);
+}
+
+
+
+// --------------------------------------------------- 
+
+Ejercicio 14  
+se le pide a la persona que ingrese un nunero y 
+le informa si ese numero es primo o no
+
+*/
 
 
 
