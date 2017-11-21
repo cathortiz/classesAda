@@ -273,7 +273,7 @@ mostrar por pantalla todos los numeros pares entre 2 y 50
 for(var i = 3; i<=49; i++){
 	console.log(i);
 }
-
+*/
 
 
 // --------------------------------------------------- 
@@ -282,7 +282,7 @@ Ejercicio 14
 se le pide a la persona que ingrese un nunero y 
 le informa si ese numero es primo o no
 
-*/
+
 
 
 
