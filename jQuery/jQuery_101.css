@@ -16,7 +16,7 @@ table, th, td {
 	padding:5px;
 }
 
-.btnEdit {
+.btnEdit, .btnErase, .btn {
 	font-size: 26px;
 	border-radius: 5px;
 }
@@ -26,6 +26,11 @@ table, th, td {
 	background-color: #F08;
 }
 
+.disable {
+	text-align: center;
+	border:0px;
+	font-size: 18px;
+}
 /*
 .contenedor {
 	width: 80%;
