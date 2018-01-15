@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Firebase DB</title>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+	<script>
+	  // Initialize Firebase
+		var config = {
+		apiKey: "AIzaSyA2e4nUPJU9MsVFG2Sks9BYZfQuv--wnJI",
+		authDomain: "clasedb-dacbc.firebaseapp.com",
+		databaseURL: "https://clasedb-dacbc.firebaseio.com",
+		projectId: "clasedb-dacbc",
+		storageBucket: "clasedb-dacbc.appspot.com",
+		messagingSenderId: "694630804457"
+		};
+		firebase.initializeApp(config);
+
+		// Initialize Cloud Firestore through Firebase
+		var db = firebase.firestore();
+	</script>
+</head>
+<body>
+	<form id="newGame">
+		<input type="file" name="pic" id="pic">
+		<button type="submit">Submit</button>
+	</form>
+
+	<div id="games">
+
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+</body>
+</html>

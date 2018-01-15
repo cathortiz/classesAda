@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+
+  <script>
+    var config = {
+      apiKey: "AIzaSyCI_8ZRChrZcdmHZJz4rwsTjrKs0lYZ9PY",
+      authDomain: "clase-db-2.firebaseapp.com",
+      databaseURL: "https://clase-db-2.firebaseio.com",
+      projectId: "clase-db-2",
+      storageBucket: "clase-db-2.appspot.com",
+      messagingSenderId: "859015247569"
+    };
+    firebase.initializeApp(config);
+    var db = firebase.firestore();
+  </script>
+</head>
+<body>
+  <form id="new-user">
+    <input type="text" name="nombre" id="nombre">
+    <input type="text" name="apellido" id="apellido">
+    <input type="file" name="pic" id="pic">
+
+    <button type="submit">Guardar</button>
+  </form>
+
+  <div id="users">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="submit.js"></script>
+  <script src="list.js"></script>
+</body>
+</html>
